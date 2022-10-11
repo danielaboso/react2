@@ -4,7 +4,7 @@ const CartWidget = () => {
     return (
         <div>
             <BiShoppingBag />
-            0
+            <span id="contador">0</span>
             </div>
         
     );

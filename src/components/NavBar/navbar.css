@@ -1,0 +1,19 @@
+.navbar {
+    font-size: larger;
+    display: flex;
+    background-color: greenyellow;
+  }
+
+#item {
+  color: rgb(104, 168, 8);
+  margin:10px
+}
+  
+
+  
+  nav li {
+    display: inline;
+    font-size: larger;
+    align-self: center;
+    align-items: center;
+  }
