@@ -1,7 +1,7 @@
 import CartWidget from "../CartWidget/Cartwidget";
 import Form from "../Form/Form";
 import { Link } from 'react-router-dom'
-import '../NavBar/navbar.css'
+import '../NavBar/Navbar.css'
 
 const Navbar = () => {
     return (
@@ -9,27 +9,26 @@ const Navbar = () => {
       <div className="navbar container-fluid ">
         <div className="m-auto" id="navbarNav">
           <ul className="navbar-nav">
-            <li>
+            <li id="item">Inicio
               <Link to = '/'>
-              <li id="item">Inicio</li>
-              </Link>
+              </Link> 
             </li>
             <li >
             <Link to = '/category/autitos'>
               <a id="item">Autitos</a>
-              </Link>
+            </Link> 
             </li>
             <li>
-            <Link to = '/category/didacticos'>
-              <a id="item">Didacticos</a>
-            </Link>
+             <Link to = '/category/didacticos'>
+              <a id="item">Didacticos</a> 
+            </Link> 
             </li>
             </ul>
           </div>
           <Form />
-          <a>
+           <a>
           <CartWidget />
-          </a>
+          </a> 
         </div>
       </nav>
             
