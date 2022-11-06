@@ -1,5 +1,5 @@
 import './CartWidget.css'
-import { BiShoppingBag } from 'react-icons/bi'
+import Carrito from "./Assets/Carrito.svg"
 import { useContext } from 'react';
 import { CartContext } from '../../CartContext/CartContext';
 import { Link } from 'react-router-dom'
@@ -10,7 +10,7 @@ const CartWidget = () => {
     return(
         <div className="widget">
           <div className="CartWidget"> 
-            <Link className='Carrito' to='/cart'>  <img id="BiShoppingBag" src={BiShoppingBag} alt="" /></Link>
+          <Link className='carrito' to='/cart'>  <img id="carrito" src={Carrito} alt="" /></Link>
             <span className='number' id='number'>{totalQuantity}</span>
           </div>
         </div>

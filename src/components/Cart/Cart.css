@@ -6,10 +6,10 @@
     }
     
     .buttonTotal {
-        background-color: rgb(50, 50,50);
+        background-color: rgb(240, 35, 223);
         color: aliceblue;
         font-size: large;
-        border: black;
+        border: rgb(238, 38, 38);
         border-style: solid;
         border-radius: 5px;
         text-decoration: none;
@@ -18,10 +18,10 @@
     }
     
     .buttonLimpiar{
-        background-color: rgb(50, 50,50);
+        background-color: rgb(31, 238, 48);
         color: aliceblue;
         font-size: large;
-        border: black;
+        border: rgb(245, 39, 39);
         border-style: solid;
         border-radius: 5px;
         text-decoration: none;
@@ -34,10 +34,10 @@
     }
     
     .comienzo{
-        background-color: rgb(50, 50,50);
+        background-color: rgb(240, 35, 223);
         color: aliceblue;
         font-size: large;
-        border: black;
+        border: rgb(240, 29, 29);
         border-style: solid;
         border-radius: 5px;
         text-decoration: none;
@@ -58,10 +58,10 @@
     .totalAPagar{
         display: flex;
         justify-content: center;
-        background-color: rgb(50, 50,50);
+        background-color: rgb(240, 35, 223);
         color: aliceblue;
         font-size: larger;
-        border: black;
+        border: rgb(253, 42, 42);
         border-style: solid;
         border-radius: 5px;
         text-decoration: none;

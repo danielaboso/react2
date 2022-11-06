@@ -60,10 +60,10 @@
 }
 
 .linkVerDetalle{
-    background-color: #323232;
+    background-color: #ee32cf;
     color: aliceblue;
     font-size: large;
-    border: black;
+    border: rgb(221, 67, 29);
     border-style: solid;
     border-radius: 5px;
     text-decoration: none;

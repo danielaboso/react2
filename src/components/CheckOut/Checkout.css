@@ -11,10 +11,10 @@
     margin: auto;
 }
 .botonCheckout{
-    background-color: rgb(50, 50,50);
+    background-color: rgb(215, 27, 240);
     color: aliceblue;
     font-size: larger;
-    border: black;
+    border: rgb(241, 34, 34);
     border-style: solid;
     border-radius: 5px;
     text-decoration: none;

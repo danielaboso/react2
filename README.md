@@ -1,3 +1,12 @@
+## E-commerce con [REACTJS] - [CODERHOUSE].
+
+VIVA LA PEPA es una tienda ficticia, pensada para la comercialización de juegos didácticos para niños, realizada con [REACTJS] y [FIREBASE] como servidor.
+El cliente puede navegar dentro de las categorias, seleccionar los productos que desee y finalizar la compra con una orden de pedido.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
