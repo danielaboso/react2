@@ -1,0 +1,22 @@
+.widget{
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    background-color: rgb(43, 223, 43);
+}
+
+.widget img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.CartWidget{
+    background-color: rgb(50, 50,50);
+    margin-right: 5px;
+}
+
+span {
+    color: white;
+    font-size:5px;
+}

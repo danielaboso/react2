@@ -1,0 +1,44 @@
+.contador {
+    display: flex;
+flex-direction:row;
+justify-content:  center;
+
+}
+
+.elements {
+    margin:10px;
+    font-size: 25px;
+}
+
+#number{
+    font-size: 30px;
+}
+
+#cartButton{
+    background-color: rgb(184, 18, 170);
+    color: rgb(247, 240, 245);
+    font-size: large;
+    border: rgb(106, 236, 55);
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#addButton{
+    background-color: rgb(184, 18, 170);
+    color: aliceblue;
+    border: rgb(106, 236, 55);
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+#subsButton{
+    background-color: rgb(184, 18, 170);
+    color: aliceblue;
+    border: rgb(106, 236, 55);
+    border-style: solid;
+    border-radius: 5px;
+}

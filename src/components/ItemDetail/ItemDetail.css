@@ -3,12 +3,16 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 25%;
+    width: 30%;
     margin: 20px auto;
-    font-size: 12px;
-    background-color:  rgb(233, 70, 97);
+    background-color: #f3527a;
+    padding: 15px;
+    box-shadow: 2px 1px 1px #474747b2;
+    border-radius: 5px;
+}
+
+p{
     color: black;
-    border-radius: 3px;
 }
 
 .containerDetail img{
@@ -17,13 +21,26 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin: 20px auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     border-radius: 5px;
 }
+.botonItd{
+    background-color: rgb(216, 16, 59);
+    color: rgb(252, 249, 251);
+    font-size: large;
+    border: rgb(50, 248, 83);
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    margin:5px;
+}
 
-.itemDetails{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.price{
+font-size: large;
+}
+
+.description{
+    font-size: large;
 }

@@ -1,38 +1,39 @@
-import CartWidget from "../CartWidget/Cartwidget";
-import Form from "../Form/Form";
+import '../NavBar/NavBar.css'
+import CartWidget from '../CartWidget/CartWidget'
+import logo from  "../NavBar/logo.jpg"
 import { Link } from 'react-router-dom'
-import '../NavBar/Navbar.css'
 
-const Navbar = () => {
+const NavBar = () => {
     return (
-      <nav className="navbar navbar-expand-lg">
-      <div className="navbar container-fluid ">
-        <div className="m-auto" id="navbarNav">
-          <ul className="navbar-nav">
-            <li id="item">Inicio
-              <Link to = '/'>
-              </Link> 
-            </li>
-            <li >
-            <Link to = '/category/autitos'>
-              <a id="item">Autitos</a>
-            </Link> 
-            </li>
-            <li>
-             <Link to = '/category/didacticos'>
-              <a id="item">Didacticos</a> 
-            </Link> 
-            </li>
+        <nav className="navbar navbar-expand-lg">
+        <div className="navbar container-fluid ">
+        <Link id="item" to = './'> <img className='logo1'  src={logo} /> </Link>
+          <div className="m-auto" id="navbarNav">
+            <ul className="navbar-nav">
+              <li  className='menu' >
+                <Link id="item" to = '/'>
+                <p id="p">INICIO</p>
+                </Link>
+              </li>
+              <li className='menu'  >
+              <Link id="item" to = '/category/Autitos'>
+                <p id="p">Autitos</p>
+                </Link>
+              </li>
+              <li className='menu' >
+              <Link id="item" to = '/category/didacticos'>
+                <p id="p">Didacticos</p>
+              </Link>
+              </li>
             </ul>
           </div>
-          <Form />
-           <a>
-          <CartWidget />
-          </a> 
+          <a>
+            <CartWidget />
+          </a>
         </div>
       </nav>
-            
-    );
+    )
+    
 }
 
-export default Navbar;
+export default NavBar

@@ -1,0 +1,77 @@
+.productsContainer{
+        display: flex;
+        flex-direction: row;
+        margin:5px;
+        flex-wrap: wrap;
+    }
+    
+    .buttonTotal {
+        background-color: rgb(50, 50,50);
+        color: aliceblue;
+        font-size: large;
+        border: black;
+        border-style: solid;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 5px;
+        margin:10px
+    }
+    
+    .buttonLimpiar{
+        background-color: rgb(50, 50,50);
+        color: aliceblue;
+        font-size: large;
+        border: black;
+        border-style: solid;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .vacio{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    
+    .comienzo{
+        background-color: rgb(50, 50,50);
+        color: aliceblue;
+        font-size: large;
+        border: black;
+        border-style: solid;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .innerLink{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    
+    .totalPagarContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .totalAPagar{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(50, 50,50);
+        color: aliceblue;
+        font-size: larger;
+        border: black;
+        border-style: solid;
+        border-radius: 5px;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    
+    }
+    
+    .total{
+        color: aliceblue;
+        align-items: center;
+    }

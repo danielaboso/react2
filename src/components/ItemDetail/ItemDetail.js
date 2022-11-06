@@ -1,28 +1,50 @@
-import'../asyncMock'
 import '../ItemDetail/ItemDetail.css'
-import Counter from '../Counter/Counter'
 import ItemCount from '../ItemCount/ItemCount'
+import { useCart } from '../../CartContext/CartContext'
+import {  useState } from 'react'
+import { Link } from 'react-router-dom'
 
-const ItemDetail = ({ img, name, category, price, description }) => {
-    const handleOnAdd = () => {
-        console.log(
-            'se agrego al carrito'
-        )
+
+const ItemDetail = ({id, img, name, category, price, description, stock }) => {
+
+    const [goToCart, setGoToCart] = useState (false)
+    const {addProduct, getProductQuantity} = useCart ( );
+
+
+
+    const onAdd = (quantity) => {
+        const productToAdd = {
+            id,
+            img,
+            name,
+            category,
+            price,
+            description
+        }
+        setGoToCart(true);
+        addProduct (productToAdd, quantity);
     }
-        return (
-             <div className='containerDetail'>
-                <img src={img} alt={name}/>
-                <h1 className="name">{name}</h1>
-                <h3 className="category">{category}</h3>
-                <p className="price"> ${price}</p>
-                <p className= "description ">{description}</p> 
-                <Counter/>
-                <button id='buttonagregaralcarro' className='carro'>agregar al carrito</button>
-                <ItemCount onAdd={handleOnAdd} />
-        
-        </div> 
-        
-        )
-    }
-    
-    export default ItemDetail
+
+    const quantityAdded = getProductQuantity (id)
+
+
+    return (
+        <div className='containerDetail'>
+            <img src={img} alt={name}/>
+            <h1 className="name">{name}</h1>
+            <h3 className="category">{category}</h3>
+            <p className="price">Precio ${price}</p>
+            <p className= "description ">{description}</p>
+            { stock!==0 ? <ItemCount onAdd={onAdd} stock={stock} initial={quantityAdded} /> : <h2>Sin Stock</h2> }
+        { !goToCart ? true :
+        <div className="buttons-detail">
+        <Link to='/cart' className="botonItd">Ir al carrito</Link>
+        <Link to='/' className="botonItd">Seguir comprando</Link> 
+        </div> }
+        { goToCart ? true
+        : <Link to='/' className="botonItd">Volver a la tienda</Link> }
+        </div>
+    )
+}
+
+export default ItemDetail

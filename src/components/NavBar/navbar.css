@@ -1,14 +1,44 @@
 .navbar {
-    font-size: larger;
+    font-size: medium;
     display: flex;
-    background-color: greenyellow;
+    background-color: rgb(43, 223, 43);
+    height: 80px;
   }
 
-#item {
-  color: rgb(104, 168, 8);
-  margin:10px
+.menu {
+  margin:10px;
 }
-  
+
+#item {
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#p:hover{
+  transform: scale(1);
+  box-shadow: 2px 2px 2px 2px rgb(230, 83, 181);
+  border-radius: 2px;
+}
+
+#p{
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.logo1 {
+  margin-left: 15px;
+  height: 60px;
+  width: 60px;
+}
 
   
   nav li {
@@ -16,4 +46,5 @@
     font-size: larger;
     align-self: center;
     align-items: center;
+    text-decoration: none;
   }

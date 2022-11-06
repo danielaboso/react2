@@ -1,0 +1,55 @@
+.containerCart {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;    
+    width: 30%;
+    margin: 20px auto;
+    background-color: #78cad2;
+}
+
+.containerImage{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerData{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerCart img{
+    display: inline-block;
+    margin: 15px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.eliminar{
+    background-color: rgb(50, 50,50);
+    color: aliceblue;
+    font-size: larger;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.priceCart{
+    font-weight: bolder;
+}
+
+.cantidadCart{
+    font-weight: bolder;
+}
+.SubTotalCart{
+    font-weight: bolder;
+}
+
