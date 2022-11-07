@@ -3,6 +3,26 @@
 VIVA LA PEPA es una tienda ficticia, pensada para la comercialización de juegos didácticos para niños, realizada con [REACTJS] y [FIREBASE] como servidor.
 El cliente puede navegar dentro de las categorias, seleccionar los productos que desee y finalizar la compra con una orden de pedido.
 
+##Instalacion
+1-Clonar el siguiente repositorio en la temrinal y ejecutar en la consola: git clone https://github.com/danielaboso/react2.git
+2-npm Install
+3-npm run start
+4-Y listo para aprobar :)
+
+##Desarrollado con 
+-HTML
+-CSS
+-JAVASCRIPT
+-REACTJS
+-GIT
+
+
+
+
+
+
+
+
 
 
 
