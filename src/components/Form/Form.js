@@ -71,7 +71,7 @@ const submit = (e) => {
                 <input value={address}onChange={(e) => setAddress(e.target.value)}type="text"   className="form-input"   placeholder="Dirección"required />
                 <input value={email} onChange={(e) => setEmail(e.target.value)} type="email"  className="form-input"   placeholder="Email" required/>
                 <input value={checkEmail} onChange={(e) => setCheckEmail(e.target.value)} type="Confirme Email"  className="form-input"   placeholder="Email" required/>
-                <input value={phone}onChange={(e) => setPhone(e.target.value)} type="number" className="form-input"   placeholder="Teléfono"required />
+                <input value={phone}onChange={(e) => setPhone(e.target.value)} type="text" className="form-input"   placeholder="Teléfono"required />
 
 
             <div >
